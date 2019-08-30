@@ -1,0 +1,180 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+legend,
+button,
+input,
+textarea,
+th,
+td,
+div,
+span {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  font: 1.5 'Droid Serif', tahoma, arial, \5b8b\4f53, sans-serif;
+  border: 0;
+  outline: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%
+}
+
+address,
+cite,
+dfn,
+em,
+var {
+  font-style: normal
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: courier new, courier, monospace
+}
+
+small {
+  font-size: 12px
+}
+
+ul,
+ol {
+  list-style: none
+}
+
+a {
+  background: transparent;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent
+}
+
+a:hover {
+  text-decoration: none
+}
+
+a:focus {
+  outline: 0
+}
+
+sup {
+  vertical-align: text-top
+}
+
+sub {
+  vertical-align: text-bottom
+}
+
+legend {
+  color: #000
+}
+
+fieldset,
+img {
+  border: 0
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  display: block;
+  margin: 0;
+  padding: 0
+}
+
+mark {
+  background: #ff0
+}
+
+textarea {
+  overflow: auto
+}
+
+.clearfix {
+  *zoom: 1
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: ""
+}
+
+.clearfix:after {
+  clear: both
+}
+
+input:-webkit-autofill {
+  box-shadow: 0 0 0 1000px white inset
+}
+
+html,
+body {
+  -webkit-overflow-scrolling: touch;
+  font-family: 'PingFangSC', 'STHeiti', 'Microsoft YaHei', 'Helvetica', 'Arial', sans-serif;
+  font-size: 0;
+  width: 100%;
+  min-height: 100%;
+  min-width: 320px;
+  background: #fff;
+  line-height: 1;
+  overflow-x: hidden;
+}
+
+input[type=search]::-webkit-search-cancel-button {
+  -webkit-appearance: none
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}

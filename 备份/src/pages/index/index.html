@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>爆米花视频</title>
+  <script>
+  //点击上报到达观 reporttype=PGC 是精选大图上报  REC是小图
+  function commitUserView(videoid, reporttype) {
+    channels.CommitUserView(videoid, reporttype);
+  };
+  (function(){
+    if(!(navigator.userAgent.match(/(iPhone|iPod|Android|ios|iPad)/i))){
+      var href = window.location.href.replace('m.baomihua','www.baomihua');
+      window.location.href=href
+    }
+  })()
+
+  </script>
+</head>
+
+<body>
+  <div class="nav-scroll">
+      <div class="logo"></div>
+      <div class="nav-scroll-inner">
+        <ul></ul>
+      </div>
+      <div class="scroll-right-box">
+        <div class="header-top-btn">下载APP</div>
+        <div class="more-channel-btn"></div>
+      </div>
+  </div>
+  <div id="page-wrapper">
+      <!-- page-active -->
+    <div id="page-wrapper-inner">
+      <header id="header">
+        <div class="header-top">
+          <a href="https://m.baomihua.com" class="header-top-logo"></a>
+          <div class="header-top-right">
+            <div class="header-top-btn">下载APP</div>
+            <div class="more-channel-btn"></div>
+          </div>
+        </div>
+        <nav class="nav border-bottom"><ul></ul></nav>
+      </header>
+      <div id="recommend">
+        <div>
+          <ul class="list-content"></ul>
+          <div class="bottom-tip">
+            <span class="loading-hook">加载中...</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="channel-list-mask">
+      <div class="channel-list-wrapper">
+          <ul>
+            <li typeid="100">
+              <div class="icon"><img src="../../images/sy.png" height="23"></div>
+              <p class="name">推荐</p>
+            </li>
+            <li typeid="124">
+              <div class="icon"><img src="../../images/xsd.png" height="23"></div>
+              <p class="name">新时代</p>
+            </li>
+            <li typeid="101">
+              <div class="icon"><img src="../../images/yl.png" height="23"></div>
+              <p class="name">娱乐</p>
+            </li>
+            <li typeid="3">
+              <div class="icon"><img src="../../images/gx.png" height="23"></div>
+              <p class="name">搞笑</p>
+            </li>
+            <li typeid="20">
+                <div class="icon"><img src="../../images/qw.png" width="68.96%"></div>
+                <p class="name">奇闻</p>
+              </li>
+              <li typeid="112">
+                <div class="icon"><img src="../../images/sh.png" width="68.96%"></div>
+                <p class="name">生活</p>
+              </li>
+              <li typeid="107">
+                <div class="icon"><img src="../../images/ls.png" width="68.96%"></div>
+                <p class="name">历史</p>
+              </li>
+              <li typeid="1">
+                <div class="icon"><img src="../../images/ms.png" width="68.96%"></div>
+                <p class="name">美食</p>
+              </li>
+              <li typeid="13">
+                  <div class="icon"><img src="../../images/qc.png" width="68.96%"></div>
+                  <p class="name">汽车</p>
+                </li>
+                <li typeid="119">
+                  <div class="icon"><img src="../../images/jk.png" width="68.96%"></div>
+                  <p class="name">健康</p>
+                </li>
+                <li typeid="21">
+                  <div class="icon"><img src="../../images/yx.png" width="68.96%"></div>
+                  <p class="name">游戏</p>
+                </li>
+                <li typeid="108">
+                  <div class="icon"><img src="../../images/kj.png" width="68.96%"></div>
+                  <p class="name">科技</p>
+                </li>
+                <li typeid="114">
+                    <div class="icon"><img src="../../images/mb.png" width="68.96%"></div>
+                    <p class="name">萌宝</p>
+                  </li>
+                  <li typeid="2">
+                    <div class="icon"><img src="../../images/gcw.png" width="68.96%"></div>
+                    <p class="name">广场舞</p>
+                  </li>
+                  <li typeid="114">
+                    <div class="icon"><img src="../../images/ly.png" width="68.96%"></div>
+                    <p class="name">旅游</p>
+                  </li>
+                  <li typeid="114">
+                    <div class="icon"><img src="../../images/xsp.png" height="23"></div>
+                    <p class="name">小视频</p>
+                  </li>
+          </ul>
+        </div>
+  </div>
+</body>
+
+</html>
