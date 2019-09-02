@@ -20,6 +20,8 @@ import {CHANNE_LlIST} from '../../common/js/channelList.js'
 import isReachBottom from '../../common/js/scrollLoad.js'
 // 统计
 import getStat from '../../common/js/getStat'
+// 启动下载app
+import openApp from '../video/js/openApp.js'
 const LY = 'ufrbmhwap'
 class App {
   constructor () {

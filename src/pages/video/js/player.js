@@ -228,7 +228,7 @@ window.videoBeforeLoad = function(flag){
   oiframe.style.bottom = '0'
   oiframe.style.width = '100%'
   oiframe.style.height = '100%'
-  oiframe.src = 'https://m.video.baomihua.com/iframe/player.html?videoId='+VIDEO_INFOS.flvid+'&from=h5video'
+  oiframe.src = '//m.video.baomihua.com/iframe/player.html?videoId='+VIDEO_INFOS.flvid+'&from=h5video'
   playerBox.appendChild(oiframe)
   PLAYERs.addListenerVideoUpdate()
 }
