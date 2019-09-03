@@ -11,7 +11,7 @@ class BAIDU_ASYNC_AD {
     this.handleDomInsert()
 
     // 底部悬浮
-    this.handleBotBanner()
+    // this.handleBotBanner()
   }
   handleBotBanner () {
     // 非少儿频道并且是二跳才加载百度底悬
