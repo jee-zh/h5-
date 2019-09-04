@@ -15,7 +15,7 @@ function openApp(options) { // 启动app
     //安卓启动app字段
     scheme_Adr: 'baomihua://baomihua.android/splashActivity?adNum=' + number,
     //跳转到下载中间页字段
-    download_url: 'http://m.video.baomihua.com/app/?videoid=' + objid + '&title=' + escape(title.replace(/ /g, "?").replace(/ /g, "&")) + '&appurl=' + downurl + '&appposter=' + appPoster + '&number=' + number + '&pagetype=' + index + '&addressid=' + addressid,
+    download_url: 'http://page.wenzhiji.com/h5/index.html?videoid=' + objid + '&title=' + escape(title.replace(/ /g, "?").replace(/ /g, "&")) + '&appurl=' + downurl + '&appposter=' + appPoster + '&number=' + number + '&pagetype=' + index + '&addressid=' + addressid,
     timeout: 600
   };
   var startTime = Date.now();
